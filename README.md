@@ -1,5 +1,6 @@
 # SE_05
 
+
 </br>
 
 ![Sin título-1 (1)](https://user-images.githubusercontent.com/89356704/235112292-064954fa-d435-4a6f-b04d-826438a062d2.png)
@@ -104,6 +105,29 @@ npm run dev
 ```
 
 The development server will now be running, and you can access it at `http://localhost:3000`.
+
+7. Use a tool like [Postman](https://www.postman.com/) to call the endoints defined in the routes.
+
+7.1 A Member with a 'manager' role has been set up automatically when running the software. 
+
+    Through the endpoint
+
+    `http://localhost:3000/users/register`
+
+
+    Register with the following JSON body:
+    
+    
+    ```
+    {
+    "username":"testman@example.com",
+    "password":"SuperSecret123@", //whatever you choose
+    "isAdmin": true
+}
+
+    ```
+    
+    Now you can interact with the database as you wish!
 
 
 ## Additional Information
