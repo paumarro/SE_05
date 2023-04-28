@@ -85,7 +85,7 @@ Create a `.env` file in the root folder of the project and add the following var
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
-DB_NAME=clubWindDB
+DB_NAME=ClubWindDB
 ```
 
 Replace `your_password` with your actual MySQL root password.
