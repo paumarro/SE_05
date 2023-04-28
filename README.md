@@ -158,7 +158,7 @@ A Member with a 'manager' role has been set up automatically when running the so
           "type": "jpg"
         },
         "roleId": 3,
-        "clubId": 4
+        "clubId": 1
       }
 
    ##### Event:
