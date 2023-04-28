@@ -86,9 +86,6 @@ npm run dev
 
 The development server will now be running, and you can access it at `http://localhost:3000`.
 
-## Running Tests
-
-
 
 ## Additional Information
 
@@ -96,19 +93,24 @@ Please refer to the `package.json` and `tsconfig.json` files for more details on
 
 
 
-## Brag Corner
+# Brag Corner
 
-- Designing a complex DB and simplifying the it to a point that made sense for an MVP
+## 1. Designing a complex DB and simplifying the it to a point that made sense for an MVP
 
 ![Clubwind ERM - Database ER diagram (crow's foot)](https://user-images.githubusercontent.com/89356704/235119977-b0a4086a-3567-4932-a47f-9f4358e2832f.png)
 
 </br>
 </br>
-- Learning to Think in Systems
 
+## 2. Transaction operations for Creation and Update (get specific)
 
+code snipped
 
-
-- Transaction operations for Creation and Update (get specific)
+## 3. Learning to Think in Systems
   
+Talk about the intuition and the book.
+
+# Next steps
+
+Write about crucial upcoming changes to the database
 
