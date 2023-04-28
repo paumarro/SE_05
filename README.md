@@ -113,7 +113,10 @@ Please refer to the `package.json` and `tsconfig.json` files for more details on
 # Next steps
 
 As tease in the beginnig of the document, my next efforst will be focused in developing financial managment features.
+
 A method to allow users to choose a username distict from their email address to reduce redundancy has unfortunatley not been implemented due to time constraints.
+
+Development to grant users exclusively access to Data concerning their own Club is a priority. As well as JOINing Clubs and Events.  
 
 
 # Brag Corner
