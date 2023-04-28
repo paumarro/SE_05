@@ -14,17 +14,32 @@
 
 But what exactley can ClubWind users do?
 
-- In order to register as a User, an pre-existing User with admin privileges has to create a Member entry with his/her information.
-- It is precisely 
+Registration 
+- In order to register as a **User**, an pre-existing User with admin privileges has to create a **Member** entry with his/her information.
+- The new Member can now use his/her email as a username and choose a password. 
+- If through the registry the new Member is assigned to a Role as a 'manager', he/she can set his/her account up as an admin as well.
 
+Privileges
+- With the admin privileges the user is able to CRUD **Events** and **Members**. 
+- Regular **Users** can only read the content. E.g. Consulting upcoming **Events** and the attendence of other **Members**
+- Tresaurer will have exclusive access to upcoming financial contents. (In development)
+
+Relationships
+- **Members**, **Clubs** & **Events** can be assigned to an **Image** along there other specific data.
+- **Mebers** & **Events** can be also linked to an **Address**.
+- **Members** can be added to **Events**.
 
 
 ## Database Design
 
-![Clubwind ERM - Página 3 (2)](https://user-images.githubusercontent.com/89356704/235117901-865e703d-5c9e-4f7c-95e8-5f8386994686.png)
+![Clubwind ERM - Página 3 (5)](https://user-images.githubusercontent.com/89356704/235135905-880f4490-85a2-4571-bb1d-05526b85f1c7.png)
 
 
 I've used Sequelazie DataTypes instead of MySQL DataTypes for the Physical ERD as they allow us to mantain the same format if we decide to change to a different DBMS in the future.
+
+**Constrains**: 
+
+Add constrains
 
 ## Tech Stack
 This project uses the following main dependencies:
