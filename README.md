@@ -110,13 +110,17 @@ The development server will now be running, and you can access it at `http://loc
 
 Please refer to the `package.json` and `tsconfig.json` files for more details on the project configuration.
 
+</br>
+
 # Next steps
 
-As tease in the beginnig of the document, my next efforst will be focused in developing financial managment features.
+###### Some features that have unfortunatley not been implemented due to time constraints
 
-A method to allow users to choose a username distict from their email address to reduce redundancy has unfortunatley not been implemented due to time constraints.
++ As tease in the beginnig of the document, my next efforst will be focused in developing financial managment features.
 
-Development to grant users exclusively access to Data concerning their own Club is a priority. As well as JOINing Clubs and Events.  
++ A method to allow users to choose a username distict from their email address to reduce redundancy.
+
++ Development to grant users exclusively access to Data concerning their own Club is a priority. As well as JOINing Clubs and Events.  
 
 
 # Brag Corner
@@ -138,6 +142,8 @@ The following is the original diagram color coded by privilege categories.
 I would consider my first milestone to be JOINing tables to have a complete view of a particular member or event (to directly see the location for instance). As sequelize proved not to be as intuitive and straight foward in practice as presented in the official documentation.
 
 Nevertheless, the achievment I am most proud of is handeling multiple tables in one unit of work (through transactions). Not only for the technical aspect of it, but also for the logical thinking that it requires. 
+
+##### The following is an example of such an operation:
 
 ```
 
@@ -270,6 +276,6 @@ export const updateEventService = async (
 
 ## 3. Learning to Think in Systems
   
-Designing and developing a relational database has significantly enhanced my ability to think in systems. By engaging with the interconnected nature of data and its organization, I have gained a deeper understanding some of the principles outlined in Meadows' "Thinking in Systems" which has ultimately enriched my problem-solving capabilities and decision-making processes across various aspects of my life.
+Designing and developing a relational database has significantly enhanced my ability to think in systems. By engaging with the interconnected nature of data and its organization, I have gained a deeper understanding some of the principles outlined in Meadows' *Thinking in Systems* which has ultimately enriched my problem-solving capabilities and decision-making processes across various aspects of my life.
 
 
