@@ -197,7 +197,7 @@ Please refer to the `package.json` and `tsconfig.json` files for more details on
 
 # Next steps
 
-###### Some features that have unfortunatley not been implemented due to time constraints
+###### Some features that have not been implemented due to time constraints
 
 + As tease in the beginnig of the document, my next efforst will be focused in developing financial managment features.
 
