@@ -220,7 +220,7 @@ The following is the original diagram color coded by privilege categories.
 </br>
 </br>
 
-## 2. Transaction operations for Creation and Update 
+## 2. Transaction operations for Creation, Update & Delete
 
 I would consider my first milestone to be JOINing tables to have a complete view of a particular member or event (to directly see the location for instance). As sequelize proved not to be as intuitive and straight foward in practice as presented in the official documentation.
 
