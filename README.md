@@ -92,7 +92,7 @@ Replace `your_password` with your actual MySQL root password.
 
 4. Set up the database
 
-Create a new database named `clubWindDB` in your MySQL Server, using a tool like MySQL Workbench or the MySQL command-line interface.
+Create a new database named `ClubWindDB` in your MySQL Server, using a tool like MySQL Workbench or the MySQL command-line interface.
 
 5. Compile TypeScript to JavaScript
 ```
@@ -108,26 +108,85 @@ The development server will now be running, and you can access it at `http://loc
 
 7. Use a tool like [Postman](https://www.postman.com/) to call the endoints defined in the routes.
 
-7.1 A Member with a 'manager' role has been set up automatically when running the software. 
+A Member with a 'manager' role has been set up automatically when running the software. 
 
-    Through the endpoint
+ 
+   Through the endpoint (post) `http://localhost:3000/users/register`
+   
+   Register with the following JSON body:
+     
 
-    `http://localhost:3000/users/register`
-
-
-    Register with the following JSON body:
-    
-    
-    ```
     {
     "username":"testman@example.com",
-    "password":"SuperSecret123@", //whatever you choose
+    "password":"SuperSecret123@", //or whatever you choose
     "isAdmin": true
-}
+    }
 
-    ```
     
-    Now you can interact with the database as you wish!
+   Now you can interact with the database as you wish!
+   
+   I suggest to start by creating Members & Events.
+   
+   (post) `http://localhost:3000/members/`
+   
+   (post) `http://localhost:3000/events/`
+   
+   Here I leave some boilerplate JSON bodies:
+   
+   ##### Member:
+   
+      {
+        "first_name": "Jimi",
+        "last_name": "Hendrix",
+        "date_of_entry": "2022-02-15",
+        "email": "VoodooChild@example.com",
+        "gender": "M",
+        "phone": "1235551212",
+        "birthday": "1995-05-29",
+        "address": {
+          "post_code": "90210",
+          "country": "USA",
+          "street_name": "Beverly Hills",
+          "street_number": 123,
+          "floor": "3rd",
+          "apartment": "305"
+        },
+        "image": {
+          "name": "Jimi's Profile Picture",
+          "description": "A photo of Jimi at Westwood.",
+          "url": "https://example.com/images/jane-doe.jpg",
+          "type": "jpg"
+        },
+        "roleId": 3,
+        "clubId": 4
+      }
+
+   ##### Event:
+   
+     {
+    "name": "Chess Match",
+    "description": "International Championchip",
+    "is_public": true,
+    "start_at": "2023-05-15",
+    "end_at": "2023-05-15",
+    "entry_fee": 25,
+    "capacity": 500,
+    "address": {
+      "post_code": "12345",
+      "country": "United States",
+      "street_name": "Main St",
+      "street_number": 123,
+      "floor": "2nd",
+      "apartment": "Apt 4B"
+    },
+    "image": {
+      "name": "Chess Match",
+      "description": "A crowd of people enjoying live music in the sunshine",
+      "url": "https://example.com/chess-match.jpg",
+      "type": "image/jpeg"
+    },
+    "clubId": 1
+  }
 
 
 ## Additional Information
