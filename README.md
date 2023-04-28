@@ -220,13 +220,13 @@ The following is the original diagram color coded by privilege categories.
 </br>
 </br>
 
-## 2. Transaction operations for Creation and Update (get specific)
+## 2. Transaction operations for Creation and Update 
 
 I would consider my first milestone to be JOINing tables to have a complete view of a particular member or event (to directly see the location for instance). As sequelize proved not to be as intuitive and straight foward in practice as presented in the official documentation.
 
 Nevertheless, the achievment I am most proud of is handeling multiple tables in one unit of work (through transactions). Not only for the technical aspect of it, but also for the logical thinking that it requires. 
 
-##### The following is an example of such an operation:
+##### The following is an example of one of such operations:
 
 ```
 
