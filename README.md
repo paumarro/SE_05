@@ -28,6 +28,11 @@ Relationships
 - **Mebers** & **Events** can be also linked to an **Address**.
 - **Members** can be added to **Events**.
 
+Queries
+- Get a Member/Event by searching for specific key-value. E.g. (get) `/members/?first_name=Michael&last_name=Jordan`
+- Get a Member/Event by id. E.g. (get) `/events/12` (JOIN's related tables)
+- Get all Mebers/Events. E.g. (get) `/members` 
+- Get Members attending a Specific Event & viceversa. E.g. (get) `/members/3/events` or `/events/1/members`
 
 ## Database Design
 
@@ -40,11 +45,11 @@ Relationships
 
 *Unique*:
 
-  Member.email , User.username , Role.name
+   <span style="color:blue"> Member.email , User.username , Role.name </span>
 
 *Not Nullable*:
 
-  Most values for Address (except 'floor' & 'apartment') , Club.name & Club.description , Image.url , Member.first_name, Member.last_name, Member.email, Member.roleId,   Member.clubId , Role.name , User.Username , User.password
+ <span style="color:blue"> Most values for Address (except 'floor' & 'apartment') , Club.name & Club.description , Image.url , Member.first_name, Member.last_name, Member.email, Member.roleId,   Member.clubId , Role.name , User.Username , User.password </span>
 
 ## Tech Stack
 This project uses the following main dependencies:
