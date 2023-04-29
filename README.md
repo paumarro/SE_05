@@ -68,12 +68,12 @@ Follow these steps to set up the development environment:
 
 1. Clone the repository
 ```
-git clone https://github.com/yourusername/clubwind-node-ts-be.git
+git clone https://github.com/paumarro/se_05.git
 ```
 
 2. Install the dependencies
 ```
-cd clubwind-node-ts-be
+cd se_05
 npm install
 ```
 
