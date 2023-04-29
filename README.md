@@ -111,7 +111,7 @@ npm run dev
 
 The development server will now be running, and you can access it at `http://localhost:3000`.
 
-7. Use a tool like [Postman](https://www.postman.com/) to call the endoints defined in the routes.
+7. Use a tool like [Postman](https://www.postman.com/) to call the endoints defined in the [routes](https://github.com/paumarro/SE_05/tree/main/src/routes).
 
 A Member with a 'manager' role has been set up automatically when running the software. 
 
