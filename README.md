@@ -210,7 +210,10 @@ Please refer to the `package.json` and `tsconfig.json` files for more details on
 
 + Development to grant users exclusively access to Data concerning their own Club is a priority. As well as JOINing Clubs and Events. 
 
-+ Realized after the hand-in that the update transactions are missing an if-else statement to check if other entires are related to a table before updating it, as opposed to create a new one if it is the case. E.g. The transaction example [bellow](#2-transaction-operations-for-creation-update--delete) will potentially change the address of all events that share it when only one event changes location. This is an important flaw to correct!
++ I Realized after the hand-in that the update transactions are missing an if-else statement to check if other entires share the FK before updating it.
+This process was taken into account when deleting but neglected when updating.
+
+E.g. The transaction example [bellow](#2-transaction-operations-for-creation-update--delete) will potentially change the address of all events that share it when only one event changes location. This is an important flaw to correct!
 
 
 
